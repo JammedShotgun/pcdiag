@@ -6,20 +6,29 @@
     let newItem = '';
 	
     let todoList = [{text: 'Monitor tidak menyala', status: false},
-                    {text: 'Komputer hidup tapi tidak boot', status: false},
+                    {text: 'Bau gosong', status: false},
+                    {text: 'Komputer tidak hidup', status: false},
+					{text: 'Komputer hidup tapi tidak boot', status: false},
                     {text: 'Komputer booting ke safe mode', status: false},
+                    {text: 'Blue Screen', status: false},
 					{text: 'RAM tidak terdeteksi', status: false},
+                    {text: 'Tampilan rusak dan hang', status: false},
                     {text: 'Komputer sering hang', status: false},
-                    {text: 'Tampilan layar bergaris', status: false},
+					{text: 'Tampilan layar bergaris', status: false},
+                    {text: 'Processor tidak terdeteksi', status: false},
+                    {text: 'Tampilan monitor gelap', status: false},
+					{text: 'Muncul tulisan "NTFS FILE SYSTEM"', status: false},
+					{text: 'Missing dll32', status: false},
 					{text: 'Muncul tulisan "Operating system not found"', status: false},
                     {text: 'Hard Disk bad sector', status: false},
+                    {text: 'Masalah BIOS', status: false},
+					{text: 'CPU mengeluarkan bunyi beep', status: false},
                     {text: 'Muncul tulisan "Memory test fail"', status: false},
-					{text: 'Muncul tulisan "Hard disk error/failure"', status: false},
+                    {text: 'Lampu power tidak menyala, kipas menyala', status: false},
+					{text: 'Lampu power tidak menyala, kipas tidak menyala', status: false},
+                    {text: 'Muncul tulisan "Hard disk error/failure"', status: false},
                     {text: 'Tidak dapat masuk ke BIOS', status: false},
-                    {text: 'Muncul tulisan "Memory Management Error"', status: false},
-					{text: 'Muncul tulisan "NTFS FILE SYSTEM"', status: false},
-					{text: 'Missing dll32', status: false},];
-	
+                    {text: 'Muncul tulisan "Memory Management Error"', status: false},];
 	function addToList() {
 		todoList = [...todoList, {text: newItem, status: false}];
 		newItem = '';
